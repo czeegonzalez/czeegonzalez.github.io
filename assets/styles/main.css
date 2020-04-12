@@ -10,8 +10,50 @@ cream: #efc8a1;
 olive: #c4d004;
 */
 html, body{
-	background-color: #c439a0;
+	background-color: #efc8a1;
+	font-family: 'Quicksand', sans-serif;
+	color: #d01740;
 }
+h1, h2, h3, h4{ font-family: 'Roboto Condensed', sans-serif; color: #db7777; }
 h1{
-	color: #db7777;
+	font-weight: 700;
 }
+a{
+	color: #d01740;
+}
+button{ background-color: #db7777; color: #d01740; }
+#menu{ 
+	background: url("../img/menu.png") no-repeat;
+	width: 50px;
+	height: 50px;
+	background-size: contain; 
+	position: relative;
+	top: -15rem;
+	right: 1.5rem;
+}
+.avatar{ width: 40%; }
+.head-intro { padding: 0 !important; }
+.icon{ width: 10%;}
+
+/* responsive */
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+	.avatar{ width: 150px; }
+	#menu{ 
+		position: relative !important;
+		top: 0 !important;
+		right: 0 !important;
+	}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+	.icon{ width: 40px }
+	.head-intro{ padding: auto; }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
