@@ -5449,6 +5449,12 @@ textarea.form-control-lg {
   .modal-fullscreen-sm-down .modal-body {
     overflow-y: auto;
   }
+  .portfolio-modal .modal-content .modal-body h2{
+    font-size: 2.2rem ;
+  }
+  .modal-body img{
+    width: 100%;
+  }
 }
 @media (max-width: 767.98px) {
   .modal-fullscreen-md-down {
@@ -5469,6 +5475,7 @@ textarea.form-control-lg {
   .modal-fullscreen-md-down .modal-body {
     overflow-y: auto;
   }
+  
 }
 @media (max-width: 991.98px) {
   .modal-fullscreen-lg-down {
@@ -6172,6 +6179,7 @@ textarea.form-control-lg {
     outline: 0;
     transition: transform 0.3s ease-in-out;
   }
+  
 }
 @media (max-width: 767.98px) and (prefers-reduced-motion: reduce) {
   .offcanvas-md {
@@ -6226,6 +6234,10 @@ textarea.form-control-lg {
   .offcanvas-md.showing, .offcanvas-md.hiding, .offcanvas-md.show {
     visibility: visible;
   }
+  .modal-body iframe{
+    width:100%;
+    height: 20rem;
+  }
 }
 @media (min-width: 768px) {
   .offcanvas-md {
@@ -6242,6 +6254,10 @@ textarea.form-control-lg {
     padding: 0;
     overflow-y: visible;
     background-color: transparent !important;
+  }
+  .modal-body iframe{
+    width:100%;
+    height: 25rem;
   }
 }
 
@@ -11064,6 +11080,7 @@ span.shadow-text{
 }
 .portfolio-modal .modal-content img {
   margin-bottom: 2rem;
+  width: 100%;
 }
 .portfolio-modal .close-modal {
   position: absolute;
